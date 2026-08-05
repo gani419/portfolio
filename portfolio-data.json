@@ -1,0 +1,208 @@
+{
+  "personal": {
+    "name": "Gangodi Ganesh",
+    "title": "Senior Cross-Platform Mobile & Web Architect",
+    "startDate": "2018-10-18",
+    "primaryFramework": "React Native",
+    "tagline": "Architecting high-performance mobile & web apps for Android, iOS, and Nuxt.js web platforms with real-time video streaming, WhatsApp CRM & payment integrations.",
+    "about": "Senior Cross-Platform & Mobile Architect with over 7 years of hands-on expertise building enterprise mobile & web ecosystems. Started in October 2018 as a Native Android Developer, specializing in React Native (primary framework), Flutter, Ionic, and Nuxt.js. Proven track record of engineering published app releases on Google Play Store and Apple App Store, real-time LiveKit streaming, automated WhatsApp CRM engines, and multi-gateway payment infrastructures.",
+    "location": "India",
+    "mobile": "+91 6362389840",
+    "email": "ganeshgangodi@gmail.com",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "profilePhoto": "assets/images/profile-avatar.png",
+    "profileScreen": "assets/images/qspiders-profile-screen.png"
+  },
+  "stats": [
+    { "label": "Years of Experience", "value": "7+", "id": "exp-counter" },
+    { "label": "Primary Framework", "value": "React Native" },
+    { "label": "Published App Store Releases", "value": "3 Apps" },
+    { "label": "Enterprise Live Projects", "value": "25+" }
+  ],
+  "publishedApps": [
+    {
+      "id": "student-android",
+      "title": "QSpiders Student App (Android)",
+      "platform": "Android",
+      "store": "Google Play Store",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.qsp.student&pli=1",
+      "iconClass": "fa-brands fa-google-play",
+      "badgeColor": "#01875f",
+      "summary": "Official Android learning app for QSpiders students featuring course enrollments, attendance, and batch tracking.",
+      "tags": ["React Native", "Android Native", "Razorpay", "Socket.io"],
+      "screenshot": "assets/images/qspiders-profile-screen.png"
+    },
+    {
+      "id": "trainer-android",
+      "title": "QSpiders Trainer App (Android)",
+      "platform": "Android",
+      "store": "Google Play Store",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.qspiders.trainer",
+      "iconClass": "fa-brands fa-google-play",
+      "badgeColor": "#01875f",
+      "summary": "Trainer companion mobile app for scheduling live classes, managing attendance, and posting batch feedback.",
+      "tags": ["React Native", "LiveKit", "WebSockets", "Firebase"],
+      "screenshot": "assets/images/qspiders-batches-screen.png"
+    },
+    {
+      "id": "student-ios",
+      "title": "Student QSpiders (iOS)",
+      "platform": "iOS",
+      "store": "Apple App Store",
+      "storeUrl": "https://apps.apple.com/in/app/student-qspiders/id6473621668",
+      "iconClass": "fa-brands fa-apple",
+      "badgeColor": "#0070c9",
+      "summary": "Official iOS app on Apple App Store providing seamless learning workflows and payment gateways for iPhone & iPad.",
+      "tags": ["React Native iOS", "Swift Native Modules", "In-App Purchases"],
+      "screenshot": "assets/images/qspiders-courses-screen.png"
+    }
+  ],
+  "appScreenshots": [
+    {
+      "id": "screen-profile",
+      "title": "Profile & 100% Completion Module",
+      "category": "Profile & Settings",
+      "description": "Comprehensive student profile UI featuring registration progress, personal details accordion, and contact information.",
+      "image": "assets/images/qspiders-profile-screen.png"
+    },
+    {
+      "id": "screen-courses",
+      "title": "Enrolled Courses & Fee Payment Portal",
+      "category": "Courses & Payments",
+      "description": "Interactive course enrollment dashboard with one-shot / partial payment breakdowns, branch details, and transaction history.",
+      "image": "assets/images/qspiders-courses-screen.png"
+    },
+    {
+      "id": "screen-batches",
+      "title": "Active Batches & Attendance Tracker",
+      "category": "Live Classroom",
+      "description": "Real-time class schedule management showing attendance percentages, online class join links, trainer feedback, and QR code access.",
+      "image": "assets/images/qspiders-batches-screen.png"
+    },
+    {
+      "id": "screen-registration",
+      "title": "User Registration & OTP Verification",
+      "category": "Authentication",
+      "description": "Sleek onboarding screen with WhatsApp number validation, double OTP verification (Mobile & Email), and password strength indicators.",
+      "image": "assets/images/qspiders-registration-screen.png"
+    }
+  ],
+  "skills": {
+    "mobile": [
+      { "name": "React Native", "level": 95, "badge": "Primary Framework" },
+      { "name": "Flutter", "level": 90, "badge": "Core Specialist" },
+      { "name": "Native Android (Java/Kotlin)", "level": 92, "badge": "Foundation (Oct 2018)" },
+      { "name": "iOS / Swift Bridge", "level": 88, "badge": "App Store Releases" }
+    ],
+    "web": [
+      { "name": "Nuxt.js / Vue.js", "level": 90, "badge": "Web Framework" },
+      { "name": "JavaScript (ES6+) / TypeScript", "level": 95, "badge": "Language Core" },
+      { "name": "HTML5 / Advanced CSS3", "level": 95, "badge": "Responsive Design" }
+    ],
+    "realtime": [
+      { "name": "LiveKit Video Streaming", "level": 92, "badge": "Live EdTech" },
+      { "name": "WebSockets / Socket.io", "level": 94, "badge": "Real-time Data" }
+    ],
+    "gateways": [
+      { "name": "Razorpay Payment Gateway", "level": 95, "badge": "Fintech" },
+      { "name": "Zoho Payments & Suite", "level": 90, "badge": "Fintech" },
+      { "name": "Airtel Payments Gateway", "level": 88, "badge": "Fintech" },
+      { "name": "MSG91 SMS Gateway", "level": 92, "badge": "Messaging" },
+      { "name": "WhatsApp Business API", "level": 94, "badge": "Automation" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "qspiders-app-ecosystem",
+      "title": "QSpiders Published App Ecosystem (Android & iOS)",
+      "category": "mobile",
+      "framework": "React Native, Android & iOS",
+      "summary": "Enterprise EdTech suite live on Play Store and App Store with 100k+ student & trainer users.",
+      "description": "Architected and delivered the core QSpiders mobile application suite available on Android (Student & Trainer apps) and iOS. Integrated real-time attendance, live video classroom streaming, multi-gateway fee payments, and automated WhatsApp registration pipelines.",
+      "highlights": [
+        "Published Student Android app on Google Play Store (com.qsp.student)",
+        "Published Trainer Android app on Google Play Store (com.qspiders.trainer)",
+        "Published Student iOS app on Apple App Store (id6473621668)",
+        "Cross-platform React Native code architecture with custom native Android & iOS modules",
+        "Integrated dual OTP verification (MSG91 + WhatsApp API) & Razorpay/Zoho payment flows"
+      ],
+      "tags": ["React Native", "Play Store", "App Store", "Android Native", "iOS Swift", "Razorpay"],
+      "icon": "fa-mobile-screen-button",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.qsp.student&pli=1",
+      "appStoreUrl": "https://apps.apple.com/in/app/student-qspiders/id6473621668",
+      "screenshot": "assets/images/qspiders-profile-screen.png"
+    },
+    {
+      "id": "live-classroom",
+      "title": "Interactive Live Classroom & Video Streaming Hub",
+      "category": "mobile",
+      "framework": "React Native & LiveKit",
+      "summary": "Real-time low-latency video & audio interactive streaming platform connecting trainers and students seamlessly.",
+      "description": "Engineered a high-concurrency real-time live class streaming application designed for trainers and students. Built with LiveKit SDK, WebSockets, and Socket.io for bidirectional interaction, live polls, chat, hand-raising, and dynamic bitrate adaptation across React Native mobile and Nuxt.js web apps.",
+      "highlights": [
+        "Sub-second latency video/audio room broadcasting with LiveKit",
+        "Interactive real-time student-trainer Q&A via Socket.io",
+        "Cross-platform support for mobile (React Native) and desktop web (Nuxt.js)",
+        "Bandwidth-adaptive streaming optimized for low-network environments"
+      ],
+      "tags": ["React Native", "LiveKit", "WebSockets", "Socket.io", "Nuxt.js"],
+      "icon": "fa-video",
+      "screenshot": "assets/images/qspiders-batches-screen.png"
+    },
+    {
+      "id": "whatsapp-crm",
+      "title": "WhatsApp Promotional & Counselor CRM Platform",
+      "category": "web",
+      "framework": "Nuxt.js & WhatsApp API",
+      "summary": "Automated WhatsApp course promotional system integrated with a real-time counselor response desk.",
+      "description": "Architected a dual-component marketing and CRM web solution built using Nuxt.js. Automatically dispatches targeted course details and promotional broadcasts to prospective students. When students reply, the system routes incoming messages to active counselors in real time via Socket.io.",
+      "highlights": [
+        "Automated WhatsApp promotion dispatcher for targeted student outreach",
+        "Instant messaging routing to counselor dashboard upon student response",
+        "Real-time status tracking & conversion analytics built with Nuxt.js",
+        "Integrated MSG91 fallback SMS verification triggers"
+      ],
+      "tags": ["Nuxt.js", "WhatsApp API", "Socket.io", "MSG91", "Node.js"],
+      "icon": "fa-comments",
+      "screenshot": "assets/images/qspiders-registration-screen.png"
+    },
+    {
+      "id": "fintech-engine",
+      "title": "Multi-Gateway Payment & Subscription Infrastructure",
+      "category": "integrations",
+      "framework": "Razorpay, Zoho, Airtel & MSG91",
+      "summary": "Unified payment processing, automated invoicing, and SMS transactional alert engine for enterprise apps.",
+      "description": "Integrated a multi-provider payment ecosystem supporting Razorpay, Zoho Payments, Airtel Money, and MSG91 SMS alerts. Designed resilient payment flows, auto-reconciliation, webhook listeners, and instant OTP verification.",
+      "highlights": [
+        "Seamless integration with Razorpay, Zoho Payments, and Airtel Money",
+        "Automated instant receipt generation and SMS notifications via MSG91",
+        "Resilient webhooks handling payment confirmation retries",
+        "Universal integration module used across React Native, Flutter, and Nuxt.js applications"
+      ],
+      "tags": ["Razorpay", "Zoho", "Airtel Payments", "MSG91", "React Native", "Flutter"],
+      "icon": "fa-credit-card",
+      "screenshot": "assets/images/qspiders-courses-screen.png"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2022 - PRESENT",
+      "role": "Senior Cross-Platform Tech Lead & Architect",
+      "company": "Enterprise EdTech & Tech Solutions",
+      "details": "Lead developer overseeing published cross-platform mobile applications (React Native, Flutter) on Play Store & App Store and Nuxt.js web apps. Spearheaded real-time streaming architectures (LiveKit) and complex gateway integrations (Razorpay, Zoho, MSG91, WhatsApp Business)."
+    },
+    {
+      "period": "2020 - 2022",
+      "role": "Senior Mobile Developer (React Native / Flutter)",
+      "company": "Mobile Solutions Studio",
+      "details": "Engineered hybrid & cross-platform apps for iOS and Android using React Native as primary framework. Built Socket.io chat apps, payment gateways, and push notification pipelines."
+    },
+    {
+      "period": "OCT 18, 2018 - 2020",
+      "role": "Native Android Developer",
+      "company": "Mobile App Lab",
+      "details": "Began professional career on October 18, 2018 developing native Android applications using Java/Kotlin, Android SDK, SQLite, Retrofit, and Material Design."
+    }
+  ]
+}

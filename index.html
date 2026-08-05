@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Gangodi Ganesh - Senior Cross-Platform Mobile & Web Architect with 7+ years experience in React Native, Flutter, Ionic, Nuxt.js, and Native Android. Published app releases on Play Store & App Store. Phone: +91 6362389840, Email: ganeshgangodi@gmail.com">
+  <title>Gangodi Ganesh | Senior Cross-Platform Mobile & Web Architect</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Orbs -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+  <div class="ambient-glow-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <div class="logo-avatar-wrap">
+          <img src="assets/images/profile-avatar.png" alt="Gangodi Ganesh" class="nav-avatar" id="nav-avatar-img">
+        </div>
+        <div>
+          <div class="brand-name" id="nav-name">Gangodi Ganesh</div>
+          <div class="brand-sub" id="nav-title">Cross-Platform Tech Lead (7+ Yrs)</div>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#published-apps" class="nav-link">App Releases</a></li>
+        <li><a href="#app-screenshots" class="nav-link">App Showcase</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Timeline</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Switch Theme">
+          <i class="fa-solid fa-palette"></i> <span class="btn-text">Theme</span>
+        </button>
+        <button class="customizer-open-btn" id="open-customizer" title="Customize Content">
+          <i class="fa-solid fa-sliders"></i> <span class="btn-text">Customize</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text-content">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span id="hero-badge-text">7+ Years Exp • Native Android to React Native Architect</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient-gold" id="hero-name">Gangodi Ganesh</span><br>
+          <span class="text-gradient" id="hero-main-title">Senior Cross-Platform Mobile & Web Architect</span>
+        </h1>
+
+        <p class="hero-subtitle" id="hero-bio">
+          Started career on <b>October 18, 2018</b> as a Native Android Developer. Now engineering high-concurrency cross-platform applications using <span class="framework-highlight">React Native (Primary)</span>, Flutter, Ionic, and Nuxt.js. Published apps live on <b>Google Play Store</b> & <b>Apple App Store</b>. Expert in LiveKit video streaming, WebSockets, WhatsApp CRM, and payment gateways.
+        </p>
+
+        <!-- Quick Contact Info Pills -->
+        <div class="quick-contact-pills">
+          <a href="tel:+916362389840" class="contact-pill">
+            <i class="fa-solid fa-phone" style="color: var(--primary-cyan);"></i>
+            <span>+91 6362389840</span>
+          </a>
+          <a href="mailto:ganeshgangodi@gmail.com" class="contact-pill">
+            <i class="fa-solid fa-envelope" style="color: #ff9800;"></i>
+            <span>ganeshgangodi@gmail.com</span>
+          </a>
+          <div class="contact-pill">
+            <i class="fa-solid fa-location-dot" style="color: #4caf50;"></i>
+            <span>India</span>
+          </div>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#published-apps" class="btn btn-primary">
+            <i class="fa-solid fa-cloud-arrow-down"></i> View App Store Releases
+          </a>
+          <a href="#app-screenshots" class="btn btn-secondary">
+            <i class="fa-solid fa-images"></i> Explore Mobile Screenshots
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Profile Photo Card with Gradient Ring -->
+      <div class="hero-profile-card">
+        <div class="profile-image-container">
+          <div class="profile-glow-ring"></div>
+          <img src="assets/images/profile-avatar.png" alt="Gangodi Ganesh" class="profile-photo" id="hero-profile-img">
+          <div class="profile-status-badge">
+            <span class="status-online-dot"></span> Available for Tech Leadership
+          </div>
+        </div>
+
+        <div class="profile-card-details">
+          <h3 class="profile-card-name">Gangodi Ganesh</h3>
+          <p class="profile-card-role">Mobile & Web Solutions Lead</p>
+          <div class="profile-card-tags">
+            <span class="profile-tag">React Native</span>
+            <span class="profile-tag">Flutter</span>
+            <span class="profile-tag">Nuxt.js</span>
+            <span class="profile-tag">Android Native</span>
+          </div>
+
+          <!-- App Store Quick Buttons in Hero Card -->
+          <div class="hero-store-bar">
+            <a href="https://play.google.com/store/apps/details?id=com.qsp.student&pli=1" target="_blank" class="store-mini-btn playstore" title="Play Store Student App">
+              <i class="fa-brands fa-google-play"></i>
+              <span>Play Store</span>
+            </a>
+            <a href="https://apps.apple.com/in/app/student-qspiders/id6473621668" target="_blank" class="store-mini-btn appstore" title="App Store Student App">
+              <i class="fa-brands fa-apple"></i>
+              <span>App Store</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Metrics Bar -->
+  <div class="container">
+    <div class="stats-bar" id="stats-container">
+      <!-- Injected by JavaScript -->
+    </div>
+  </div>
+
+  <!-- Published App Releases Section (Crucial Requirement!) -->
+  <section class="section" id="published-apps">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">Live Store Applications</div>
+        <h2 class="section-title">Published Mobile Releases</h2>
+        <p class="section-desc">Direct links to production mobile applications engineered and released on Google Play Store and Apple App Store.</p>
+      </div>
+
+      <div class="published-apps-grid" id="published-apps-container">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- App Screenshots & UI Development Showcase Section -->
+  <section class="section" id="app-screenshots">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">UI & Feature Engineering</div>
+        <h2 class="section-title">Mobile App Screenshots & UI Showcase</h2>
+        <p class="section-desc">Production UI flows engineered for 100k+ users, featuring real-time attendance, course payment gateways, live streaming, and OTP verification.</p>
+      </div>
+
+      <div class="screenshots-grid" id="screenshots-container">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">Background & Expertise</div>
+        <h2 class="section-title">7+ Years of Engineering Excellence</h2>
+      </div>
+
+      <div class="about-cards-grid">
+        <div class="skill-card">
+          <div class="project-icon-box">
+            <i class="fa-solid fa-mobile-button"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 12px;">Mobile Ecosystems</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Deep domain knowledge in <b>React Native</b> (Priority Framework), <b>Flutter</b>, <b>Ionic</b>, and <b>Native Android (Java/Kotlin)</b>. Published apps on Google Play Store & Apple App Store with 60fps UIs, native bridges, offline caching, and push notification pipelines.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <div class="project-icon-box">
+            <i class="fa-solid fa-signal"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 12px;">Real-Time & Streaming</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Pioneered interactive online classroom platforms using <b>LiveKit video streaming</b>, <b>WebSockets</b>, and <b>Socket.io</b> to facilitate seamless student-trainer interactions, live chat, and hand-raising.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <div class="project-icon-box">
+            <i class="fa-solid fa-plug-circle-bolt"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 12px;">Gateways & Integrations</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            End-to-end integration of payment infrastructure (<b>Razorpay</b>, <b>Zoho Payments</b>, <b>Airtel Money</b>), messaging (<b>MSG91 SMS</b>), and automated WhatsApp promotion & CRM response engines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">Technical Proficiency</div>
+        <h2 class="section-title">Skills & Stack Breakdown</h2>
+      </div>
+
+      <div class="skills-tabs" id="skill-tabs">
+        <button class="tab-btn active" data-category="all">All Tech</button>
+        <button class="tab-btn" data-category="mobile">Mobile Frameworks</button>
+        <button class="tab-btn" data-category="web">Web & Frontend</button>
+        <button class="tab-btn" data-category="realtime">Real-time & Media</button>
+        <button class="tab-btn" data-category="gateways">Gateways & Integrations</button>
+      </div>
+
+      <div class="skills-grid" id="skills-container">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Showcase Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">Featured Portfolio</div>
+        <h2 class="section-title">Key Projects & Architectures</h2>
+      </div>
+
+      <div class="project-filters" id="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="web">Web Apps (Nuxt)</button>
+        <button class="filter-btn" data-filter="integrations">Gateways & Live Streaming</button>
+      </div>
+
+      <div class="projects-grid" id="projects-container">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Career Timeline Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-subtitle">Career Journey</div>
+        <h2 class="section-title">Experience & Milestones</h2>
+      </div>
+
+      <div class="timeline" id="timeline-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Social Hub Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="section-subtitle">Let's Connect</div>
+        <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 16px;">Gangodi Ganesh</h2>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 28px;">
+          Looking for a Senior Cross-Platform Architect, React Native Lead, or Mobile Solutions Consultant? Reach out via phone, WhatsApp, or email directly.
+        </p>
+
+        <div class="contact-details-grid">
+          <div class="contact-detail-box">
+            <i class="fa-solid fa-phone contact-icon"></i>
+            <div>
+              <div class="detail-label">Mobile Number</div>
+              <a href="tel:+916362389840" class="detail-value">+91 6362389840</a>
+            </div>
+            <button class="copy-btn" id="copy-phone-btn" title="Copy Phone Number">
+              <i class="fa-solid fa-copy"></i>
+            </button>
+          </div>
+
+          <div class="contact-detail-box">
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <div>
+              <div class="detail-label">Email Address</div>
+              <a href="mailto:ganeshgangodi@gmail.com" class="detail-value">ganeshgangodi@gmail.com</a>
+            </div>
+            <button class="copy-btn" id="copy-email-btn" title="Copy Email">
+              <i class="fa-solid fa-copy"></i>
+            </button>
+          </div>
+
+          <div class="contact-detail-box">
+            <i class="fa-brands fa-whatsapp contact-icon" style="color: #25d366;"></i>
+            <div>
+              <div class="detail-label">WhatsApp Direct</div>
+              <a href="https://wa.me/916362389840" target="_blank" class="detail-value">Chat on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
+          <a href="mailto:ganeshgangodi@gmail.com" class="btn btn-primary" id="send-mail-link">
+            <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+          </a>
+          <a href="tel:+916362389840" class="btn btn-outline">
+            <i class="fa-solid fa-phone"></i> Call +91 6362389840
+          </a>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 20px; font-size: 1.5rem; margin-top: 32px;">
+          <a href="https://github.com" target="_blank" style="color: var(--text-muted);" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" style="color: var(--text-muted);" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/916362389840" target="_blank" style="color: #25d366;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year-copy">2026</span> Gangodi Ganesh • Cross-Platform Architect. Portfolio.</p>
+    </div>
+  </footer>
+
+  <!-- Modal for Lightbox Image & Project Details -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div id="modal-body">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Content Customizer Drawer -->
+  <div class="customizer-drawer" id="customizer-drawer">
+    <div class="drawer-header">
+      <h3 style="font-size: 1.2rem; font-weight: 700;">Live Content Customizer</h3>
+      <button class="modal-close" id="close-customizer" style="position: static;">&times;</button>
+    </div>
+
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">
+      Customize display name, phone, email, and bio in real-time. Saved in local storage.
+    </p>
+
+    <form id="customizer-form">
+      <div class="form-group">
+        <label for="cust-name">Full Name</label>
+        <input type="text" id="cust-name" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="cust-title">Professional Title</label>
+        <input type="text" id="cust-title" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="cust-phone">Mobile Number</label>
+        <input type="text" id="cust-phone" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="cust-email">Contact Email</label>
+        <input type="email" id="cust-email" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="cust-bio">Short Bio</label>
+        <textarea id="cust-bio" class="form-control" rows="4"></textarea>
+      </div>
+
+      <div style="display: flex; gap: 10px; margin-top: 24px;">
+        <button type="submit" class="btn btn-primary" style="flex: 1; padding: 10px;">
+          <i class="fa-solid fa-check"></i> Apply Live
+        </button>
+        <button type="button" class="btn btn-outline" id="export-json-btn" style="padding: 10px;" title="Export JSON">
+          <i class="fa-solid fa-download"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-msg" id="toast">Message copied to clipboard!</div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
