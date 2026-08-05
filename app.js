@@ -9,7 +9,7 @@ let portfolioData = {
     startDate: "2018-10-18",
     primaryFramework: "React Native",
     tagline: "Building high-performance mobile & web apps with React Native, Flutter, Ionic & Nuxt.js.",
-    about: "Senior Cross-Platform Developer with over 7 years of hands-on expertise building enterprise mobile & web applications. Started in October 2018 as a Native Android Developer, specializing in React Native (primary framework), Flutter, Ionic, and Nuxt.js. Proven track record of engineering published app releases on Google Play Store and Apple App Store, real-time LiveKit streaming, automated WhatsApp CRM engines, and multi-gateway payment infrastructures.",
+    about: "Senior Cross-Platform Developer with over 7 years of hands-on expertise building enterprise mobile & web applications. Started in October 2018 as a Native Android Developer, specializing in React Native, Flutter, Ionic, and Nuxt.js. Proven track record of engineering published app releases on Google Play Store and Apple App Store, working extensively with LiveKit video streaming, WebSockets, WhatsApp CRM engines, and multi-gateway payment infrastructures.",
     mobile: "+91 6362389840",
     email: "ganeshgangodi@gmail.com",
     github: "https://github.com",
