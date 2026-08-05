@@ -212,7 +212,6 @@ let portfolioData = {
 
 // Initialize App
 document.addEventListener('DOMContentLoaded', () => {
-  loadSavedCustomization();
   calculateYearsOfExperience();
   renderStats();
   renderPublishedApps();
@@ -529,36 +528,6 @@ function setupEventListeners() {
     showToast(`Switched theme to ${selectedTheme.label}`);
   });
 
-  // Customizer Drawer open/close
-  const customizerDrawer = document.getElementById('customizer-drawer');
-  document.getElementById('open-customizer').addEventListener('click', () => {
-    populateCustomizerForm();
-    customizerDrawer.classList.add('open');
-  });
-  document.getElementById('close-customizer').addEventListener('click', () => {
-    customizerDrawer.classList.remove('open');
-  });
-
-  // Customizer Form submit
-  document.getElementById('customizer-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    applyCustomization();
-    customizerDrawer.classList.remove('open');
-    showToast('Customized portfolio updated live!');
-  });
-
-  // Export JSON button
-  document.getElementById('export-json-btn').addEventListener('click', () => {
-    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(portfolioData, null, 2));
-    const downloadAnchor = document.createElement('a');
-    downloadAnchor.setAttribute("href", dataStr);
-    downloadAnchor.setAttribute("download", "portfolio-data.json");
-    document.body.appendChild(downloadAnchor);
-    downloadAnchor.click();
-    downloadAnchor.remove();
-    showToast('Portfolio configuration exported!');
-  });
-
   // Copy Phone & Email Buttons
   const copyPhoneBtn = document.getElementById('copy-phone-btn');
   if (copyPhoneBtn) {
@@ -580,53 +549,6 @@ function setupEventListeners() {
         showToast(`Email: ${portfolioData.personal.email}`);
       });
     });
-  }
-}
-
-// Populate Customizer Form inputs
-function populateCustomizerForm() {
-  document.getElementById('cust-name').value = portfolioData.personal.name;
-  document.getElementById('cust-title').value = portfolioData.personal.title;
-  document.getElementById('cust-phone').value = portfolioData.personal.mobile;
-  document.getElementById('cust-email').value = portfolioData.personal.email;
-  document.getElementById('cust-bio').value = portfolioData.personal.about;
-}
-
-// Apply Customization from Drawer inputs
-function applyCustomization() {
-  portfolioData.personal.name = document.getElementById('cust-name').value;
-  portfolioData.personal.title = document.getElementById('cust-title').value;
-  portfolioData.personal.mobile = document.getElementById('cust-phone').value;
-  portfolioData.personal.email = document.getElementById('cust-email').value;
-  portfolioData.personal.about = document.getElementById('cust-bio').value;
-
-  // Save to LocalStorage
-  localStorage.setItem('portfolio_custom_data', JSON.stringify(portfolioData));
-
-  // Update DOM UI elements
-  document.getElementById('nav-name').textContent = portfolioData.personal.name;
-  document.getElementById('nav-title').textContent = portfolioData.personal.title;
-  document.getElementById('hero-name').textContent = portfolioData.personal.name;
-  document.getElementById('hero-main-title').textContent = portfolioData.personal.title;
-  document.getElementById('hero-bio').textContent = portfolioData.personal.about;
-  document.getElementById('send-mail-link').setAttribute('href', `mailto:${portfolioData.personal.email}`);
-
-  // Re-render
-  calculateYearsOfExperience();
-  renderStats();
-  renderPublishedApps();
-  renderScreenshots();
-}
-
-// Load Saved Customization from LocalStorage if available
-function loadSavedCustomization() {
-  const saved = localStorage.getItem('portfolio_custom_data');
-  if (saved) {
-    try {
-      portfolioData = JSON.parse(saved);
-    } catch (e) {
-      console.warn("Could not parse saved custom data");
-    }
   }
 }
 
