@@ -515,14 +515,18 @@ function setupEventListeners() {
     if (e.target.id === 'project-modal') closeProjectModal();
   });
 
-  // Theme Switcher Toggle Cycle
-  const themes = ['dark', 'cyber-neon', 'deep-blue'];
+  // Theme Switcher Toggle Cycle (Executive Dark, Corporate Navy, Enterprise Light)
+  const themes = [
+    { name: 'dark', label: 'Executive Slate Dark' },
+    { name: 'corporate-navy', label: 'Corporate Navy' },
+    { name: 'light', label: 'Enterprise Light' }
+  ];
   let currentThemeIndex = 0;
   document.getElementById('theme-toggle').addEventListener('click', () => {
     currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-    const newTheme = themes[currentThemeIndex];
-    document.documentElement.setAttribute('data-theme', newTheme);
-    showToast(`Switched theme to ${newTheme.toUpperCase()}`);
+    const selectedTheme = themes[currentThemeIndex];
+    document.documentElement.setAttribute('data-theme', selectedTheme.name);
+    showToast(`Switched theme to ${selectedTheme.label}`);
   });
 
   // Customizer Drawer open/close
