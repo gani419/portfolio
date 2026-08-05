@@ -1,11 +1,11 @@
 {
   "personal": {
     "name": "Gangodi Ganesh",
-    "title": "Senior Cross-Platform Mobile & Web Architect",
+    "title": "Senior Cross-Platform Developer",
     "startDate": "2018-10-18",
     "primaryFramework": "React Native",
-    "tagline": "Architecting high-performance mobile & web apps for Android, iOS, and Nuxt.js web platforms with real-time video streaming, WhatsApp CRM & payment integrations.",
-    "about": "Senior Cross-Platform & Mobile Architect with over 7 years of hands-on expertise building enterprise mobile & web ecosystems. Started in October 2018 as a Native Android Developer, specializing in React Native (primary framework), Flutter, Ionic, and Nuxt.js. Proven track record of engineering published app releases on Google Play Store and Apple App Store, real-time LiveKit streaming, automated WhatsApp CRM engines, and multi-gateway payment infrastructures.",
+    "tagline": "Building high-performance mobile & web apps for Android, iOS, and Nuxt.js web platforms with real-time video streaming, WhatsApp CRM & payment integrations.",
+    "about": "Senior Cross-Platform Developer with over 7 years of hands-on expertise building enterprise mobile & web applications. Started in October 2018 as a Native Android Developer, specializing in React Native (primary framework), Flutter, Ionic, and Nuxt.js. Proven track record of engineering published app releases on Google Play Store and Apple App Store, real-time LiveKit streaming, automated WhatsApp CRM engines, and multi-gateway payment infrastructures.",
     "location": "India",
     "mobile": "+91 6362389840",
     "email": "ganeshgangodi@gmail.com",
@@ -188,9 +188,9 @@
   "experience": [
     {
       "period": "2022 - PRESENT",
-      "role": "Senior Cross-Platform Tech Lead & Architect",
+      "role": "Senior Cross-Platform Developer",
       "company": "Test Yantra Software Solutions",
-      "details": "Lead developer overseeing published cross-platform mobile applications (React Native, Flutter) on Play Store & App Store and Nuxt.js web apps. Spearheaded real-time streaming architectures (LiveKit) and complex gateway integrations (Razorpay, Zoho, MSG91, WhatsApp Business)."
+      "details": "Cross-platform developer overseeing published mobile applications (React Native, Flutter) on Play Store & App Store and Nuxt.js web apps. Spearheaded real-time streaming architectures (LiveKit) and complex gateway integrations (Razorpay, Zoho, MSG91, WhatsApp Business)."
     },
     {
       "period": "2020 - 2022",
