@@ -192,19 +192,19 @@ let portfolioData = {
     {
       period: "2022 - PRESENT",
       role: "Senior Cross-Platform Tech Lead & Architect",
-      company: "Enterprise EdTech & Tech Solutions",
+      company: "Test Yantra Software Solutions",
       details: "Lead developer overseeing cross-platform mobile applications (React Native, Flutter) published on Google Play Store and Apple App Store, and Nuxt.js web apps. Spearheaded real-time streaming architectures (LiveKit) and complex gateway integrations (Razorpay, Zoho, MSG91, WhatsApp Business)."
     },
     {
       period: "2020 - 2022",
       role: "Senior Mobile Developer (React Native / Flutter)",
-      company: "Mobile Solutions Studio",
+      company: "Test Yantra Software Solutions",
       details: "Engineered hybrid & cross-platform apps for iOS and Android using React Native as primary framework. Built Socket.io chat apps, payment gateways, and push notification pipelines."
     },
     {
       period: "OCT 18, 2018 - 2020",
       role: "Native Android Developer",
-      company: "Mobile App Lab",
+      company: "Test Yantra Software Solutions",
       details: "Began professional career on October 18, 2018 developing native Android applications using Java/Kotlin, Android SDK, SQLite, Retrofit, and Material Design."
     }
   ]
